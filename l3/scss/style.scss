@@ -1,0 +1,125 @@
+body {
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+
+
+}
+
+
+
+// nesting
+
+ul {
+    font-size: 16px;
+
+    li {
+        list-style: none;
+    }
+}
+
+// variable '-' == '_', try to use the same
+
+$primary-color:#555;
+$secondary-color:#333;
+
+div.box {
+    background-color: $primary-color;
+    $local-color: blue;
+
+    div.child-box {
+        background-color: $local-color;
+    }
+}
+
+ 
+
+$primary-border: 1px solid $primary-color;
+
+h2.page-heaser {
+    border: $primary-border;
+}
+
+//nesting ‘&’指向父选择器
+.nav {
+    height: 100px;
+
+    ul {
+        margin: 0;
+
+        li {
+            padding: 5px;
+
+            a {
+                display: block;
+
+                &:hover {
+                    background-color: blue;
+
+                }
+            }
+        }
+    }
+}
+
+
+//@mixin 复用
+
+@mixin alert {
+    color: #f000;
+
+    a {
+        color: pink;
+    }
+}
+
+.alert-warning {
+    @include alert;
+}
+
+@mixin alert2($text-color, $backgruond-color) {
+    color: $text-color;
+    background-color: $backgruond-color;
+}
+
+.alert-info {
+    @include alert2(#333, green)
+}
+
+.alert-danger {
+    @include alert2(red, blue)
+}
+
+//继承 @extend 让一个选择器继承另一个选择器所有样式
+.button {
+    height: 300px;
+    width: 200px;
+}
+
+.button-info {
+    background-color: #000;
+    @extend .button;
+}
+
+
+//partials @import
+@import "base";
+h3{
+    color: $color;
+}
+
+//@each 
+@each $animal in cat,dog,pig {
+    .#{$animal}-icon {
+        background-image:url("/images/#{animal}.png")
+    }
+}
+
+// @each $size in $sizes {
+//     .icon-#{$size} {
+//       font-size: $size;
+//       height: $size;
+//       width: $size;
+//     }
+//   }
+  

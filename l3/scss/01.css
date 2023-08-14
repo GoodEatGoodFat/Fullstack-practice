@@ -1,0 +1,7 @@
+@mixion ccc($variable-a:123px) {}
+
+@mixion @extend .btn;
+
+.a {
+    color: #fff
+}
