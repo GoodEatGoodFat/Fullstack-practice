@@ -1,0 +1,196 @@
+@import "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+:root {
+  --font-primary: "Barlow", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --color-primary: #2d373c;
+  --color-secondary: #ce1446;
+  --color-tertiary: #515154 ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: barlow, sans-serif;
+  --c1: #ce1446;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.recent-event-schedule {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ce1446;
+}
+
+.description {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2d373c;
+}
+
+.date {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  -webkit-text-stroke: 1px #ce1446;
+  -webkit-text-fill-color: transparent;
+}
+
+.flex {
+  display: flex;
+}
+
+.white-text {
+  color: white;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.left {
+  background: #ce1446;
+  border-radius: 5px 0 0 5px;
+  max-width: 440px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.left .top {
+  width: 440px;
+  padding: 15px 15px 17px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.left .time {
+  text-transform: uppercase;
+}
+
+.left .location {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.left .person {
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.left .person--details {
+  padding: 20px;
+}
+
+.left .person .job {
+  font-weight: 700;
+  font-family: raleway, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 6px;
+}
+
+.social {
+  list-style: none;
+  padding-top: 25px;
+  display: flex;
+  justify-content: left;
+}
+
+.social .fb {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.fb:not(:last-child) {
+  margin-right: 15px;
+}
+
+.card .right {
+  padding: 20px 40px;
+  border: 1px solid #ce1446;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
+  min-height: 100%;
+}
+
+.event--header {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #2d373c;
+}
+
+.event--details {
+  font-size: 16px;
+  line-height: 30px;
+  color: #515154;
+  font-family: raleway, sans-serif;
+  margin-top: 10px;
+}
+
+.event {
+  margin-top: 12px;
+}
+
+.event--topic {
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-text-decoration-line: underline !important;
+  text-decoration-line: underline !important;
+  text-transform: capitalize;
+  color: #ce1446;
+}
+
+.event--list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.event--item {
+  width: 33%;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #515154;
+  font-family: raleway, sans-serif;
+  line-height: 30px;
+}

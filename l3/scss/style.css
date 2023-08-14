@@ -1,0 +1,86 @@
+body {
+  font-size: 15px;
+  color: blue;
+  background-color: green;
+}
+
+ul {
+  font-size: 16px;
+}
+ul li {
+  list-style: none;
+}
+
+div.box {
+  background-color: #555;
+}
+div.box div.child-box {
+  background-color: blue;
+}
+
+h2.page-heaser {
+  border: 1px solid #555;
+}
+
+.nav {
+  height: 100px;
+}
+.nav ul {
+  margin: 0;
+}
+.nav ul li {
+  padding: 5px;
+}
+.nav ul li a {
+  display: block;
+}
+.nav ul li a:hover {
+  background-color: blue;
+}
+
+.alert-warning {
+  color: rgba(255, 0, 0, 0);
+}
+.alert-warning a {
+  color: pink;
+}
+
+.alert-info {
+  color: #333;
+  background-color: green;
+}
+
+.alert-danger {
+  color: red;
+  background-color: blue;
+}
+
+.button, .button-info {
+  height: 300px;
+  width: 200px;
+}
+
+.button-info {
+  background-color: #000;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: red;
+}
+
+.cat-icon {
+  background-image: url("/images/animal.png");
+}
+
+.dog-icon {
+  background-image: url("/images/animal.png");
+}
+
+.pig-icon {
+  background-image: url("/images/animal.png");
+}

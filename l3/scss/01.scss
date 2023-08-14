@@ -1,0 +1,15 @@
+@mixion ccc($variable-a:123px){
+
+}
+
+
+
+@mixion @extend .btn;
+
+$abc-color: #fff;
+
+.a {
+    color: $abc-color
+}
+
+
