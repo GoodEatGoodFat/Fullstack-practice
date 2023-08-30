@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0px black solid;
+  text-transform: capitalize;
+  --c1: darkred;
+  --c2: grey;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font1 {
+  font-family: "Mulish", sans-serif;
+}
+
+.font2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-content {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.page-container .header-wrapper {
+  background: var(--c1);
+}
+.page-container .header-wrapper .border-box {
+  border-top: 4.84px lightcoral solid;
+  border-bottom: 4.84px lightcoral solid;
+}
+.page-container .header-wrapper .header {
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+}
+.page-container .header-wrapper .header .logo {
+  width: 300px;
+  height: 144px;
+}
+.page-container .header-wrapper .header .navigation-holder {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.page-container .header-wrapper .header .social-media {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.page-container .header-wrapper .header .social-media li {
+  margin-right: 12px;
+}
+.page-container .header-wrapper .header .social-media .small-logo {
+  --social-size: 25px;
+  background-color: var(--c1);
+  color: white;
+  border-radius: 50%;
+  width: var(--social-size);
+  height: var(--social-size);
+  line-height: var(--social-size);
+  font-size: 22px;
+  text-align: center;
+}
+.page-container .header-wrapper .header .navi-top {
+  display: flex;
+  height: 60px;
+  margin-top: 10px;
+  color: white;
+  font-size: 1rem;
+}
+.page-container .header-wrapper .header .navi-top li {
+  padding: 22px;
+  transition: 0.2s;
+}
+.page-container .header-wrapper .header .navi-top li:hover {
+  background-color: var(--c2);
+}
+
+.body-main * {
+  border: 1px black solid;
+}
+
+.body-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-picture {
+  background-image: url(../imgs/1_resized.png);
+  background-size: cover;
+  background-position: right center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-picture .content {
+  margin: 0 50px;
+  color: white;
+}
+.main-picture .content .logan {
+  font-weight: 600;
+  font-size: 60px;
+}
+.main-picture .content :nth-child(2) {
+  background-color: pink;
+}
+.main-picture .content :nth-child(3) {
+  background-color: red;
+}
