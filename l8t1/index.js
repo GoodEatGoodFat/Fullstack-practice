@@ -8,7 +8,7 @@
 
 const express = require("express");
 //after creating weatherRouter:
-const weatherRouter = require("./weatherRouter");
+const weatherRouter = require("./weatherRouter.js");
 //create a web server
 const app = express();
 const PORT = 8000;
