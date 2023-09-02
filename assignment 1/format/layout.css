@@ -13,6 +13,32 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .font1 {
   font-family: "Mulish", sans-serif;
 }
@@ -23,6 +49,10 @@ a {
 
 .font-content {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.text-center {
+  text-align: center;
 }
 
 ul {
@@ -94,11 +124,6 @@ ul {
   border: 1px black solid;
 }
 
-.body-wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 .main-picture {
   background-image: url(../imgs/1_resized.png);
   background-size: cover;
@@ -121,4 +146,17 @@ ul {
 }
 .main-picture .content :nth-child(3) {
   background-color: red;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
