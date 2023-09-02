@@ -20,6 +20,40 @@ a {
   //   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+}
+
+//for the whole page container
+.main {
+}
+
+//mainly for container that hold content.can be used to response
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+.capitalize {
+  text-transform: capitalize;
+}
 .font1 {
   font-family: "Mulish", sans-serif;
 }
@@ -30,6 +64,10 @@ a {
 
 .font-content {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.text-center {
+  text-align: center;
 }
 
 ul {
@@ -114,11 +152,6 @@ ul {
   border: 1px black solid;
 }
 
-.body-wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 .main-picture {
   background-image: url(../imgs/1_resized.png);
   background-size: cover;
@@ -142,3 +175,31 @@ ul {
     }
   }
 }
+
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+// underline effect
+// content: "";
+//     width: 0;
+//     height: 1px;
+//     background-color: #009abf;
+//     position: absolute;
+//     bottom: 1px;
+//     left: 0;
+//     transition: width .4s ease-in;
