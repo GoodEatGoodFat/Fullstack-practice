@@ -354,18 +354,8 @@ ul {
   width: 100%;
   background-position: center;
   background-size: cover;
-  padding-bottom: 56.51%;
   border-radius: 10px;
   margin-bottom: 1.5rem;
-}
-.top-content .top-content__col .c-1\/3-col .c-1\/3-col__img-wrapper .c-1\/3-col__img1 {
-  background-image: url(https://github.com/GoodEatGoodFat/Fullstack-practice/blob/heng-structure/assignment%201/imgs/2_600x400.png?raw=true);
-}
-.top-content .top-content__col .c-1\/3-col .c-1\/3-col__img-wrapper .c-1\/3-col__img2 {
-  background-image: url(https://github.com/GoodEatGoodFat/Fullstack-practice/blob/heng-structure/assignment%201/imgs/2_600x400.png?raw=true);
-}
-.top-content .top-content__col .c-1\/3-col .c-1\/3-col__img-wrapper .c-1\/3-col__img3 {
-  background-image: url(https://github.com/GoodEatGoodFat/Fullstack-practice/blob/heng-structure/assignment%201/imgs/2_600x400.png?raw=true);
 }
 .top-content .top-content__col .c-1\/3-col .c-1\/3-col__copy h3 {
   font-size: 1.5rem;
