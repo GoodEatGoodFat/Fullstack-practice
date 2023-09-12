@@ -10,7 +10,7 @@
 .fuqing .container {
   padding-top: 8.5rem;
   padding-bottom: 11rem;
-  padding-right: 20%;
+  padding-right: 35%;
 }
 .fuqing .fuqing__content {
   padding: 20px;
@@ -58,7 +58,7 @@
 }
 
 .svg2 {
-  filter: brightness(0) saturate(100%) invert(83%) sepia(84%) saturate(738%) hue-rotate(87deg) brightness(100%) contrast(87%);
+  filter: brightness(0) saturate(100%) invert(61%) sepia(14%) saturate(744%) hue-rotate(183deg) brightness(85%) contrast(86%);
   opacity: 0;
 }
 

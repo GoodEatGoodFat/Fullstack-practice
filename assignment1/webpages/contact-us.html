@@ -3,24 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- font -->
+    <title>Mandao International Trade</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/be016a0063.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=    &callback=console.debug&libraries=maps,marker&v=beta"
+    ></script>
     <link
       rel="stylesheet"
       id="google-fonts-1-css"
       href="https://fonts.googleapis.com/css?family=Mulish%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.3"
       media="all"
     />
-    <!-- generally for the whole page -->
-    <link rel="stylesheet" href="../../format/layout.css" />
+    <link rel="stylesheet" href="../format/layout.css" />
     <!-- individual for this page -->
-    <link rel="stylesheet" href="../../format/product-single.css" />
-    <!-- font awesome -->
-    <script
-      src="https://kit.fontawesome.com/be016a0063.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="../format/product-range.css" />
+    <!-- individual for this page -->
+    <link rel="stylesheet" href="../format/contact-us.css" />
   </head>
+
   <body>
     <div class="page-container">
       <header class="header-wrapper">
@@ -35,7 +41,6 @@
               class="logo"
             />
           </a>
-
           <div class="navigation-holder">
             <ul class="social-media flex flex-row pt-4">
               <!-- social media -->
@@ -80,130 +85,83 @@
                   >Contact Us</a
                 >
               </li>
+
             </ul>
           </div>
         </div>
       </header>
 
-      <div class="body-main pb-16">
-        <div class="individual pt-16 pb-8 single-recipe__head">
-          <div class="container text-center">
-            <h1 class="mb-8">DEEP DISH PIZZA PIE</h1>
-            <div class="flex flex-row flex-center prep-cook-serv">
-              <div><strong>Prep: </strong>20 mins</div>
-              <div><strong>Cook: </strong>25 mins</div>
-              <div><strong>Servings: </strong>4</div>
-            </div>
-          </div>
-        </div>
-        <div class="individual single-recipe__image">
-          <div class="container mb-16">
-            <img
-              src="https://github.com/GoodEatGoodFat/Fullstack-practice/blob/heng-structure/assignment1/imgs/2_1200x800.png?raw=true"
-              alt=""
-            />
-          </div>
-        </div>
+      <div class="body-main">
         <div class="individual">
-          <div class="container flex flex-row">
-            <div class="w-2/3 pr-8">
-              <div class="single-recipe__description">
-                <p>
-                  Golden crumbly shortcrust pastry makes these tartlets extra
-                  special! Don't be afraid to get creative with fillings!
-                </p>
-              </div>
-              <div class="single-recipe__description">
-                <h2 class="pb-6">ingredients</h2>
-                <ul>
-                  <li>220g Pampas Shortcrust Pastry Case</li>
-                  <li>½ cup tomato pasta sauce or pizza sauce</li>
-                  <li>
-                    1 cup mixed antipasto items or pizza toppings (see tips)
-                  </li>
-                  <li>50g thinly sliced pepperoni, ham or other salami</li>
-                  <li>1¼ cups (150g)pizza cheese</li>
-                  <li>100g mini vine sweet capsicums, trimmed, quartered</li>
-                </ul>
-                <p>
-                  <strong>Tips </strong>For the antipasto items, we used 60g
-                  chargrilled eggplant and 1/3 cup pitted kalamata olives but
-                  you can use any of your favourite pizza toppings. You can swap
-                  mini capsicums with 1 sliced, small, red or yellow capsicum.
-                </p>
-              </div>
-              <div class="single-recipe__description">
-                <h2 class="pb-6">method</h2>
-                <ol>
-                  <li>
-                    Preheat oven to 180°C (160°C fan-forced). Prebake pastry
-                    case according to packet directions. Set aside to cool
-                    slightly.
-                  </li>
-                  <li>
-                    Sprinkle ½ cup cheese on base of pastry case, spread pasta
-                    sauce over cheese, sprinkle with another½ cup cheese. Top
-                    with capsicums, antipasto items and pepperoni; sprinkle with
-                    remaining cheese.
-                  </li>
-                  <li>
-                    Bake 15 minutes or until cheese is melted and bubbling. Top
-                    with basil leaves to serve.
-                  </li>
-                </ol>
-              </div>
-              <div class="single-recipe__allRecipies">
-                <a href="" class="btn">browse all recipes</a>
+          <div class="range-description pb-10 container text-center">
+            <h1>contact us</h1>
+            <p class="contact-us__description">
+              Get in touch! We hope that you’re getting creative in the kitchen,
+              and we’d love to hear from you. Reach out with any questions,
+              feedback or just to let us know how much you love cooking with
+              Pampas!
+            </p>
+          </div>
+
+          <div class="product-wrapper container pt-8 pb-4 flex flex-row">
+            <div class="w-1/2 flex flex-col align-center">
+              <!-- <div class="w-1/2"> -->
+              <h2 class="font2 mb-4">CALL US</h2>
+              <p class="font1">
+                Our Australia free Consumer Advisory Centre is available on:
+              </p>
+              <div class="a-btn-wrapper">
+                <a href="tel:1800-000-000" class="font1 btn">1800-000-000</a>
               </div>
             </div>
+            <div class="w-1/2 flex flex-col align-center">
+              <!-- <div class="w-1/2"> -->
+              <h2 class="font2 mb-4">EMAIL US</h2>
+              <p class="font1">Alternatively drop us an email at:</p>
+              <div class="a-btn-wrapper">
+                <a href="mailto:abc@gmail.com.au" class="font1 btn"
+                  >cac@mandao.com.au</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <div class="w-1/3 pl-8 single-product__recipes">
-              <div class="featured-in">
-                <div class="featured-in__header">
-                  <strong>Featured in:</strong>
-                </div>
-                <div class="flex flex-row featured-in__btn">
-                  <div><a href="">Grilled eel</a></div>
-                  <div><a href="">Grilled process</a></div>
-                </div>
-              </div>
-              <div class="single-product__holder">
-                <div class="mb-4 single-recipe__product">
-                  <strong>product used:</strong>
-                </div>
-                <div class="flex flex-row flex-wrap">
-                  <div class="single-product">
-                    <a href="./product-single.html">
-                      <div class="single-product__content">
-                        <div class="single-product__image">
-                          <img
-                            src="https://github.com/GoodEatGoodFat/Fullstack-practice/blob/heng-structure/assignment1/imgs/2_1200x800.png?raw=true"
-                            alt=""
-                          />
-                        </div>
-                        <div class="description text-center font2">
-                          Whole eel
-                        </div>
-                      </div>
-                      <div class="single-product__cover recipe-cover-font">
-                        <div><strong>prep: </strong>20 mins</div>
-                        <div><strong>cook: </strong>20 mins</div>
-                        <div><strong>servings: </strong>2</div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
+        <!-- divide thin bar -->
+        <hr class="thin-bar" />
+
+        <div class="individual">
+          <div class="container pb-16 top-content text-center">
+            <div class="capitalize top-content__text">
+              <!-- 这里应该是h2.h1应该使用在Mandao这个词语上，并且隐藏。 -->
+              <h2 class="font2 pb-5">VISIT US</h2>
+              <p class="font1 pb-9">
+                Come to our shop and having a fresh tasting
+              </p>
+            </div>
+            <div class="gMap">
+              <gmp-map
+                center="-37.78562927246094,145.125244140625"
+                zoom="14"
+                map-id="DEMO_MAP_ID"
+              >
+                <gmp-advanced-marker
+                  position="-37.78562927246094,145.125244140625"
+                  title="My location"
+                >
+                </gmp-advanced-marker>
+              </gmp-map>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="footer f-white">
-        <div class="border-box"></div>
-        <div class="footer__content">
-          <div class="">
-            <div class="container footer__container">
+    <div class="footer f-white">
+      <div class="border-box"></div>
+      <div class="footer__content">
+        <div class="">
+          <div class="container pb-10 footer__container">
             <div class="flex flex-row flex-between pb-8">
               <div class="w-1/5">
                 <div class="-mt-4 pr-8">
@@ -307,18 +265,18 @@
                 </ul>
               </div>
             </div>
-              <div class="terms flex flex-row flex-between">
-                <ul class="flex flex-row">
-                  <li><a href="">Privacy policy</a></li>
-                  <li><a href="">Terms of use</a></li>
-                </ul>
-                © 2023 FuQing QiXiang. All rights reserved
-              </div>
+            <div class="terms flex flex-row flex-between">
+              <ul class="flex flex-row">
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Terms of use</a></li>
+              </ul>
+              © 2023 FuQing QiXiang. All rights reserved
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="../../js/dropdown.js"></script>
   </body>
 </html>
+
+<!-- 整点插件，比如视频，地图，request -->

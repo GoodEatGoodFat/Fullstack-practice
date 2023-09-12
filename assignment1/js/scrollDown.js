@@ -15,7 +15,7 @@ window.addEventListener("scroll", function () {
   // Define the scroll positions where you want to change the background image
   let position1 = 1000; // Change this to your desired position
   let position2 = 1700; // Change this to your desired position
-  let position3 = 3000;
+  let position3 = 2400;
 
   if (scrollPosition < position1) {
     //show bkg1
