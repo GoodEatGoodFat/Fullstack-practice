@@ -1,0 +1,76 @@
+.body-main {
+  position: relative;
+}
+
+.fuqing {
+  background-image: url(../imgs/about_us/qixiang1.png);
+  background-position: center;
+  background-size: cover;
+}
+.fuqing .container {
+  padding-top: 8.5rem;
+  padding-bottom: 11rem;
+  padding-right: 20%;
+}
+.fuqing .fuqing__content {
+  padding: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.fuqing .fuqing__content h1 {
+  padding-bottom: 2.75rem;
+}
+.fuqing .fuqing__content p {
+  line-height: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.individual {
+  position: relative;
+}
+.individual .individual__bkg1,
+.individual .individual__bkg2,
+.individual .individual__bkg3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -999;
+  transition: 1s ease;
+}
+
+.box {
+  /* position: absolute;
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 300; */
+}
+
+.svg1 {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(13%) saturate(979%) hue-rotate(326deg) brightness(105%) contrast(105%);
+  opacity: 0;
+}
+
+.svg2 {
+  filter: brightness(0) saturate(100%) invert(83%) sepia(84%) saturate(738%) hue-rotate(87deg) brightness(100%) contrast(87%);
+  opacity: 0;
+}
+
+.svg3 {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(13%) saturate(979%) hue-rotate(326deg) brightness(105%) contrast(105%);
+  opacity: 0;
+}
+
+.svg1,
+.svg2,
+.svg3 {
+  margin: auto;
+  transition: 1s ease;
+  width: 50%;
+}
