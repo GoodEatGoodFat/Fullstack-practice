@@ -6,7 +6,7 @@ const opacity_off = 0;
 const opacity_on = 100;
 
 const COLOR1 = "#FFEEC3";
-const COLOR2 = "#11EEC3";
+const COLOR2 = "#7A89AA";
 const COLOR3 = "#FFEEC3";
 
 window.addEventListener("scroll", function () {
